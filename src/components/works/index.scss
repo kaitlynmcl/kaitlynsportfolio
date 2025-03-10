@@ -1,0 +1,53 @@
+.works {
+  padding-top: 3rem;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0rem 2rem;
+
+    @media screen and (max-width: 900px) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+  }
+
+  &__header {
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+  }
+
+  &__logos {
+    width: 150px;
+  }
+
+  &__pg {
+    font-size: 13px;
+    padding: 20px 0;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 0px;
+    }
+  }
+
+  &__spacing {
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__title {
+    font-weight: normal;
+    font-size: 14px;
+    color: #8a8a8a;
+  }
+
+  &__work {
+    padding: 0rem 1.5rem 0.5rem 0rem;
+
+    @media screen and (max-width: 600px) {
+      margin: 0.5rem 0;
+    }
+  }
+}

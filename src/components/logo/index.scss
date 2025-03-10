@@ -1,0 +1,11 @@
+.logo {
+  width: 400px;
+  height: 170px;
+  background-size: cover;
+  background-position: center;
+
+  &__wrapper {
+    margin: 1rem 0rem;
+    max-width: 400px;
+  }
+}
