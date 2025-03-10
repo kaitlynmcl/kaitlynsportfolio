@@ -1,11 +1,13 @@
 .logo {
-  width: 400px;
-  height: 170px;
+  width: 600px;
+  height: 200px;
+  background-image: url("../../assets/vase.png");
   background-size: cover;
-  background-position: center;
+  background-position: left -30px top -100px;  
+  background-repeat: no-repeat;
 
   &__wrapper {
-    margin: 1rem 0rem;
+    margin: 0rem;
     max-width: 400px;
   }
 }
